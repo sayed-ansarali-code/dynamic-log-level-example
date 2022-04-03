@@ -2,7 +2,7 @@
 # Getting Started
 
 * Simple SpringBoot Application
-* Exposes and endpoint `/log` that prints all five levels of logging available logging framework.
+* Exposes and endpoint `/log` that prints all five levels of logging available in logging framework.
 * Configs added in application.properties to expose actuator endpoint using which log level can be changed.
 * logback-spring.xml (with scan enabled in it) added in src/resources folder to test dynamic log level change.
 
